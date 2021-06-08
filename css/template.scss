@@ -1,0 +1,53 @@
+%before-logo {
+	content: 'T';
+	font-size: 26px;
+	width: 41px;
+	height: 41px;
+	text-align: center;
+	line-height: 41px;
+	margin-right: 12px;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+%section-bottom-link {
+	border: 1px solid #458ff6;
+	border-radius: 55px;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+	min-width: 200px;
+	color: #458ff6;
+	padding: 19px 30px;
+	text-decoration: none;
+	transition: .3s;
+
+	&:hover {
+		background: #458ff6;
+		color: white;
+		transform: scale(1.05);
+		box-shadow: 1px 1px 15px 4px rgba(95, 115, 190, 0.5);
+	}
+}
+
+%section-title {
+	font-weight: bold;
+	font-size: 36px;
+	color: #000000;
+}
+
+%section-line {
+	width: 56px;
+	height: 2px;
+	border: 1px solid black;
+	border-radius: 5px;
+	margin-bottom: 30px;
+	background-color: white;
+}
+
+%section-text {
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 30px;
+	color: #7D7987;
+}
